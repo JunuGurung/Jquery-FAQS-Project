@@ -10,3 +10,10 @@ $("#q2").click(function(){
 	$("#arrow-up2").toggleClass("collapse");
 
 });
+
+$("#q3").click(function(){
+	$("#a3").fadeToggle("slow");
+	$("#arrow-down3").toggleClass("collapse");
+	$("#arrow-up3").toggleClass("collapse");
+
+});
