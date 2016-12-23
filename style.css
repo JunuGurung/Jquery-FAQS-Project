@@ -26,3 +26,15 @@ h1 {
 	background: #CBD2D4;
 }
 
+.arrow{
+	width: 17px;
+	height: 11px;
+	float: right;
+	margin-top: 5px;
+}
+.answer{
+	padding: 25px;
+}
+.collapse{
+	display: none;
+}
