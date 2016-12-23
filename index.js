@@ -1,6 +1,6 @@
 $(".question").click(function(){
 	$(this).next().fadeToggle("slow");
-	console.log($(this).children().toggleClass("collapse"));
+	$(this).children().toggleClass("collapse"));
 	// $("#a1").fadeToggle("slow");
 	// $("#arrow-down1").toggleClass("collapse");
 	// $("#arrow-up1").toggleClass("collapse");
